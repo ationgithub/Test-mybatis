@@ -4,7 +4,7 @@ package org.sang.bean;
  * Created by sang on 17-1-13.
  */
 public class User {
-    private Long id;
+    private Integer id;
     private String username;
     private String password;
     private String address;
@@ -22,18 +22,18 @@ public class User {
     public User() {
     }
 
-    public User(Long id, String username, String password, String address) {
+    public User(Integer id, String username, String password, String address) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.address = address;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
